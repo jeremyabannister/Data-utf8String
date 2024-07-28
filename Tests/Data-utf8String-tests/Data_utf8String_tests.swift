@@ -9,14 +9,15 @@
 import Data_utf8String
 import XCTest
 
+
 ///
 final class Data_utf8String_tests: XCTestCase {
     
     ///
-    func test () {
+    func test() {
         
         ///
-        func test (_ value: String) {
+        func test(_ value: String) {
             XCTAssertEqual(
                 value
                     .data(using: .utf8)!
@@ -25,6 +26,7 @@ final class Data_utf8String_tests: XCTestCase {
             )
         }
         
+        ///
         test("hello")
         test("")
         test("🥹")
