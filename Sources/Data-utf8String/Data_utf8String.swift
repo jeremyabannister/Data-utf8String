@@ -5,11 +5,8 @@
 //  Created by Jeremy Bannister on 12/3/22.
 //
 
-///
 @_exported import Foundation
 
-
-///
 extension Data {
     
     /// Attempts to decode the `Data` as a `String` using `String.Encoding.utf8`.
